@@ -40,7 +40,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
               child: Stack(children: [
                 for (var i in layers)
                   Positioned(
-                      left: i.left, top: i.top, child: Text(i.type ?? ""))
+                      left: i.left,
+                      top: i.top,
+                      child: i.type == "i-text"
+                          ? Text(i.text ?? "")
+                          : Image.network(i.src ?? ""))
               ]),
             ))
           ]);
