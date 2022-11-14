@@ -1,4 +1,5 @@
-{
+[
+  {
     "canvas": {
       "version": "5.2.4",
       "objects": [
@@ -57,17 +58,7 @@
             {
               "type": "Convolute",
               "opaque": false,
-              "matrix": [
-                0,
-                -1,
-                0,
-                -1,
-                5,
-                -1,
-                0,
-                -1,
-                0
-              ]
+              "matrix": [0, -1, 0, -1, 5, -1, 0, -1, 0]
             }
           ]
         },
@@ -126,17 +117,7 @@
             {
               "type": "Convolute",
               "opaque": false,
-              "matrix": [
-                0,
-                -1,
-                0,
-                -1,
-                5,
-                -1,
-                0,
-                -1,
-                0
-              ]
+              "matrix": [0, -1, 0, -1, 5, -1, 0, -1, 0]
             }
           ]
         },
@@ -195,17 +176,7 @@
             {
               "type": "Convolute",
               "opaque": false,
-              "matrix": [
-                0,
-                -1,
-                0,
-                -1,
-                5,
-                -1,
-                0,
-                -1,
-                0
-              ]
+              "matrix": [0, -1, 0, -1, 5, -1, 0, -1, 0]
             }
           ]
         },
@@ -253,9 +224,7 @@
           "lineHeight": 1.1,
           "textBackgroundColor": "",
           "charSpacing": 0,
-          "styles": [
-  
-          ],
+          "styles": [],
           "direction": "ltr",
           "path": null,
           "pathStartOffset": 0,
@@ -328,9 +297,7 @@
             "id": "398958"
           },
           "src": "https://www.thebrand.ai/taswira.php?width=549&height=33&quality=50&cropratio=&image=/v/uploads/gthumbs/Groupthebrand19.png",
-          "filters": [
-  
-          ]
+          "filters": []
         },
         {
           "type": "i-text",
@@ -376,9 +343,7 @@
           "lineHeight": 1.1,
           "textBackgroundColor": "",
           "charSpacing": 0,
-          "styles": [
-  
-          ],
+          "styles": [],
           "direction": "ltr",
           "path": null,
           "pathStartOffset": 0,
@@ -451,9 +416,7 @@
             "id": "877854"
           },
           "src": "https://www.thebrand.ai/taswira.php?width=429&height=520&quality=50&cropratio=&image=/v/uploads/gthumbs/baloonthebrand58.png",
-          "filters": [
-  
-          ]
+          "filters": []
         },
         {
           "type": "image",
@@ -506,9 +469,7 @@
             "id": "654257"
           },
           "src": "https://www.thebrand.ai/taswira.php?width=573&height=287&quality=50&cropratio=&image=/v/uploads/gthumbs/Layer_5thebrand48.png",
-          "filters": [
-  
-          ]
+          "filters": []
         },
         {
           "type": "i-text",
@@ -554,9 +515,7 @@
           "lineHeight": 1.1,
           "textBackgroundColor": "",
           "charSpacing": 0,
-          "styles": [
-  
-          ],
+          "styles": [],
           "direction": "ltr",
           "path": null,
           "pathStartOffset": 0,
@@ -622,9 +581,7 @@
           "lineHeight": 1.1,
           "textBackgroundColor": "",
           "charSpacing": 0,
-          "styles": [
-  
-          ],
+          "styles": [],
           "direction": "ltr",
           "path": null,
           "pathStartOffset": 0,
@@ -656,3 +613,4 @@
     "canvasWidth": "1885",
     "canvasHeight": "782"
   }
+]
