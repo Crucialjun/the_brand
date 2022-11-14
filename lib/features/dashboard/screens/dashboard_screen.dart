@@ -43,8 +43,19 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       left: i.left,
                       top: i.top,
                       child: i.type == "i-text"
-                          ? Text(i.text ?? "")
-                          : Image.network(i.src ?? ""))
+                          ? Text(
+                              i.text ?? "",
+                              style: TextStyle(
+                                fontSize: i.fontSize?.toDouble(),
+                                fontWeight: FontWeight.w${i.fontWeight}
+                              ),
+                            )
+                          : Image.network(
+                              i.src ?? "",
+                              height: i.height,
+                              width: i.width,
+                              fit: BoxFit.fill,
+                            ))
               ]),
             ))
           ]);
